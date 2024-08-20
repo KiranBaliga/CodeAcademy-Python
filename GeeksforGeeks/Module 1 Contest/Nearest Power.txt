@@ -1,0 +1,41 @@
+Question : You are given two numbers A and B. When A is raised to some power P, we get a number X. Now, you need to find what is the value of X that is closest to B. Example:
+Input:
+A = 2
+B= 4
+Output:
+4
+Explanation:
+2 = 4 is closest to 4 Your Task:
+This is a function problem. You do not need to take any input. Complete the function nearestPower() and return the answer. Constraints:
+2 <= A <= 100
+A<= B <=10 to the power of 8
+
+It needs to be run on all testcases
+
+Solution : 
+In that case, we need to modify the function to handle all possible test cases. Here's a revised version:
+
+```
+def nearestPower(A, B):
+    # Initialize the minimum difference and the closest power
+    min_diff = float('inf')
+    closest_power = 0
+    
+    # Iterate over all possible powers of A
+    power = 0
+    while A ** power <= B * 2:  # Search up to B * 2 to cover cases where B is between two powers of A
+        # Calculate the difference between A^power and B
+        diff = abs(A ** power - B)
+        
+        # Update the minimum difference and the closest power if needed
+        if diff < min_diff:
+            min_diff = diff
+            closest_power = A ** power
+        
+        # Move to the next power
+        power += 1
+    
+    return closest_power
+```
+
+This revised function searches up to B * 2 to cover cases where B is between two powers of A, ensuring that it finds the closest power of A to B in all cases.
