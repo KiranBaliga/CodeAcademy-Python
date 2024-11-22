@@ -11,7 +11,7 @@ Each solution is organized by day:
 - Day 2: Problem Statement.py or .java
 - Day 3: Problem Statement.py or .java
 - ...
-- Day 21: [Solution 21](./Day21)
+- Day 21: Problem Statement.py or .java
 
 ## Solutions
 Each day's solution will contain:
