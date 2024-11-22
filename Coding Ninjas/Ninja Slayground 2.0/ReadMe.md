@@ -7,9 +7,9 @@ This repository contains the solutions to a 21-day coding challenge aimed at enh
 
 ## Challenge Structure
 Each solution is organized by day:
-- Day 1: [Solution 1](./Day1)
-- Day 2: [Solution 2](./Day2)
-- Day 3: [Solution 3](./Day3)
+- Day 1: Problem Statement.py or .java
+- Day 2: Problem Statement.py or .java
+- Day 3: Problem Statement.py or .java
 - ...
 - Day 21: [Solution 21](./Day21)
 
