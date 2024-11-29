@@ -1,6 +1,6 @@
-# Python Learning Journey
+# Coding Learning Journey
 
-Welcome to my Python Learning Journey repository! This is where I document all the Python programs and projects I create as I learn and grow my skills across various platforms.
+Welcome to my coding Learning Journey repository! This is where I document all the programs and projects I create as I learn and grow my skills across various platforms.
 
 ## About
 
